@@ -362,7 +362,7 @@ function parseMatches(html) {
             if (resultClass) {
                 const cls = resultClass[1];
                 if (cls.includes("wn")) obj.result = "win";
-                else if (cls.includes("ls")) obj.result = "loss";
+                else if (cls.includes("ls")) obj.result = "pending";
                 else if (cls.includes("postp")) obj.result = "pending";
             }
 
